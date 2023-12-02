@@ -1,5 +1,6 @@
 use std::fs;
 
+/// Copies the template from day01.rs to the 24 other days, and creates 25 empty input files.
 fn main() {
     // Create src/bin directory if it doesn't exist
     fs::create_dir_all("src/bin").unwrap();
